@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>trackingpom</groupId>
+	<artifactId>trackingpom</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<scm>
+		<developerConnection>scm:git:http://onsrnd1adc-st01.itlab.onstar.gm.com/stash/scm/adng/genericjarpom.git</developerConnection>
+		<connection>scm:git:http://onsrnd1adc-st01.itlab.onstar.gm.com/stash/scm/adng/genericjarpom.git</connection>
+	</scm>
+
+	<properties>
+		<hello-world.version>1.4</hello-world.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>${jar.group.id}</groupId>
+			<artifactId>${jar.artifact.id}</artifactId>
+			<version>${jar.version}</version>
+			<type>jar</type>
+			<scope>runtime</scope>
+		</dependency>
+	</dependencies>
+	<profiles>
+		<profile>
+			<id>hello-world</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<dependencies>
+				<dependency>
+					<groupId>com.onstar</groupId>
+					<artifactId>testproj</artifactId>
+					<version>${hello-world.version}</version>
+					<scope>runtime</scope>
+				</dependency>
+			</dependencies>
+		</profile>
+	</profiles>
+
+</project>
