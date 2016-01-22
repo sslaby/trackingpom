@@ -6,11 +6,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<scm>
-		<developerConnection>scm:git:http://onsrnd1adc-st01.itlab.onstar.gm.com/stash/scm/adng/genericjarpom.git</developerConnection>
-		<connection>scm:git:http://onsrnd1adc-st01.itlab.onstar.gm.com/stash/scm/adng/genericjarpom.git</connection>
-	</scm>
-
 	<properties>
 		<hello-world.version>1.4</hello-world.version>
 	</properties>
