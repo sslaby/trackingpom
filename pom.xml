@@ -32,7 +32,7 @@
 				<dependency>
 					<groupId>com.onstar</groupId>
 					<artifactId>testproj</artifactId>
-					<version>${hello-world.version}</version>
+					<version>${jar.version}</version>
 					<scope>runtime</scope>
 				</dependency>
 			</dependencies>
