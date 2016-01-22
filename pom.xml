@@ -13,7 +13,7 @@
 	<properties>
 		<hello-world.version>1.4</hello-world.version>
 	</properties>
-	<dependencies>
+	<!--dependencies>
 		<dependency>
 			<groupId>${jar.group.id}</groupId>
 			<artifactId>${jar.artifact.id}</artifactId>
@@ -21,7 +21,7 @@
 			<type>war</type>
 			<scope>runtime</scope>
 		</dependency>
-	</dependencies>
+	</dependencies-->
 	<profiles>
 		<profile>
 			<id>hello-world</id>
