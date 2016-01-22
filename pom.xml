@@ -33,6 +33,7 @@
 					<groupId>com.onstar</groupId>
 					<artifactId>testproj</artifactId>
 					<version>${jar.version}</version>
+					<type>war</type>
 					<scope>runtime</scope>
 				</dependency>
 			</dependencies>
