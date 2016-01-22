@@ -14,7 +14,7 @@
 			<groupId>${jar.group.id}</groupId>
 			<artifactId>${jar.artifact.id}</artifactId>
 			<version>${jar.version}</version>
-			<type>jar</type>
+			<type>war</type>
 			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
